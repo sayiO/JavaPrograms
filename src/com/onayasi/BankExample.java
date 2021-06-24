@@ -33,7 +33,8 @@ public class BankExample {
     }
         public static void main(String[]args){
         BankExample c1 = new BankExample();
-c1.insert(888888888, "Onias sayi", 2500);
+c1.insert(888888888, "Onias Sayi", 2500);
+            c1.display();
 c1.checkBalance();
 c1.deposit(45);
 c1.checkBalance();
